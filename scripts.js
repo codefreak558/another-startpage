@@ -11,7 +11,7 @@ const searchButton = document.querySelector("#searchbar > button")
 const lookup = {"/":"/","deepl":"https://deepl.com/","reddit":"https://reddit.com/","maps":"https://maps.google.com/"}
 const engine = "google"
 const engineUrls = {
-  duckduckgo: "https://duckduckgo.com/?q={query}",
+  duckduckgo: "https://duckduckgo.com/?q={query}&udm=14",
   google: "https://www.google.com/search?q={query}",
   youtube: "https://www.youtube.com/results?q={query}",
 }
