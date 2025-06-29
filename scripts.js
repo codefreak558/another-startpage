@@ -9,11 +9,12 @@ const searchInput = document.querySelector("#searchbar > input")
 const searchButton = document.querySelector("#searchbar > button")
 
 const lookup = {"/":"/","deepl":"https://deepl.com/","reddit":"https://reddit.com/","maps":"https://maps.google.com/"}
-const engine = "google"
+const engine = "searxng"
 const engineUrls = {
   duckduckgo: "https://duckduckgo.com/?q={query}",
   google: "https://www.google.com/search?q={query}&udm=14",
   youtube: "https://www.youtube.com/results?q={query}",
+  searxng: "https://search.darkblue.co.za/search?q={query}"
 }
 
 const isWebUrl = value => {
